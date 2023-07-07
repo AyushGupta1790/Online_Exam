@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Exam</title>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&display=swap" rel="stylesheet">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body {
+                margin: 0px;
+                 margin-top: 100px;
+                padding: 0px;
+                background: url(Images/bg.jpg);
+                background-repeat: no-repeat;
+                
+                color: white;
+               background-color: rgba(0, 0, 0, 0.329);
+              
+
+
+            }
+
+           .navbar {
+            background-color:  rgb(65, 63, 63);
+            color: white;
+            border-radius: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding:10px;
+            
+            box-sizing: border-box;
+
+        }
+
+            .navbar li {
+                display: inline-block;
+
+            }
+
+          .nav-text {
+            font-size: 57px;
+            font-family: cursive;
+           
+
+        }
+
+        .navbar a {
+            text-decoration: none;
+            font-size: 30px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+           .navbar a:hover {
+            background-color: lightslategray;
+            color: cyan;
+            font-size: 33px;
+            border-radius: 20px;
+            
+        }
+
+  .container1 {
+            margin-top: 66px;
+            float: right;
+            padding: 26px 28px;
+            border: 3px solid orange;
+            border-radius: 37px;
+            width: 18%;
+            
+            display: inline-block;
+            box-sizing: border-box;
+        }
+        .box {
+            /* border: 2px solid white; */
+            width: 600px;
+            height: 350px;
+            /* background-color: white; */
+           
+            margin-top: 50px;
+            padding: 22px 22px;
+            display: inline-block;
+            float: left;
+            box-sizing: border-box;
+            font-size: 20px;
+            color:rgb(14, 25, 4);
+            
+            /* box-shadow: 12px 12px 30px 30px rgba(0, 0, 0, 0.233) ; */
+            /* z-index: 2; */
+            /* transform: translate(-50%, -50%); */
+            /* background-color: rgba(0, 0, 0, 0.151); */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .footer{
+            width: 100%;
+            min-height: 100px;
+            background:  rgb(65, 63, 63);
+            padding: 40px;
+            display: flex;
+          
+                
+        }
+        ul{
+            list-style:  none;
+        }
+        li{
+            float:left;
+margin-left:20px;
+        }
+        </style>
+    </head>
+
+    <body>
+        <div class="container-thumbnail">
+         <header style= "background-color: rgb(0,0,0); background-color: rgba(0, 0, 0, 0.26)">
+        <div class="navbar">
+            <div class="nav-text">Online Exam</div>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Home </a></li>
+               <li> <a href="Course"> <i class="fa-solid fa-graduation-cap"></i>Course </a></li>
+              <li>  <a href="Registration"><i class="fa-solid fa-right-to-bracket"></i>Registration</a></li>
+              <li>  <a href="Contact"><i class="fa-solid fa-message"></i>Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+        <div style=" background-color: rgba(0, 0, 0, 0.137); height:700px">
+            <div class="container1">
+                <form action="LoginConf">
+                    <div class="row">
+                        <div class="col"> <input type="text" name=email placeholder="Enter Your Name" class="form-control"><br></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><input type="password" name=pswd placeholder="Enter Password" class="form-control"><br></div>
+                    </div><div class="row  text-center">
+                        <div class="col"> <input type="submit" class="btn btn-primary" value="Login"></div>
+                    </div>
+
+                </form>    
+            </div>
+            <div class="box">
+
+                <center>
+                    <h2 style="color: YELLOW;">Welcome To SCPM Lucknow</h2>
+                </center>
+                <p style="font-size: 25px; line-height: 40px;">
+                    Free online test to practice for Competitive exams. Aptitude, Logical Reasoning, Computer Questions will help you to prepare for
+                    Online Exam, Entrance and Interview. Learn and Practice online test for Free and 
+                    Prepare for your exam online with many free tests and study materials with answers and explanation.
+                </p>
+                <center> <button class="btn btn-primary"><a href="Registration" style="text-decoration:none; color: white">  Register Now</a></button></center> 
+            </div>
+        </div>
+        <div style="background-color: white;">
+            <img style="width:100%" src="Images/Placement.png" alt="">
+        </div>
+            <div class="footer">
+                <div style="font-size: 25px;">Mandatory Disclouser:</div>
+                <div style='margin-left:400px;'>
+                <ul>
+                    <li> <a href="https://www.facebook.com/profile.php?id=100018624722912"><i class="fa-brands fa-facebook" style="font-size: 45px;"></i></a></li>
+                    <li> <a href="https://twitter.com/AyushGu68004536"><i class="fa-brands fa-twitter"  style="font-size: 45px;"></i></a></li>
+                    <li> <a href=""><i class="fa-brands fa-whatsapp" style="font-size: 45px;"></i></a></li>
+                    <li> <a href="https://www.instagram.com/ayushgupta7800/"><i class="fa-brands fa-instagram" style="font-size: 45px;"></i></a></li>
+                </ul>
+                    </div>
+        </div>
+    </body>
+</html>
